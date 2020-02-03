@@ -1,0 +1,11 @@
+{
+  "name": "acme",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "workspaces": ["blog", "api", "design"],
+  "scripts": {
+    "postinstall": "sed -i 's/followSymlinks: false/followSymlinks: true/g' node_modules/watchpack/lib/DirectoryWatcher.js"
+  }
+}
