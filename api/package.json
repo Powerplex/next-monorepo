@@ -10,7 +10,7 @@
     "@types/express": "^4.17.2",
     "@types/faker": "^4.1.9",
     "axios": "^0.19.2",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "faker": "^4.1.0",
     "ts-node": "^8.6.2",
     "typescript": "^3.7.5"
